@@ -102,6 +102,7 @@ public class MainActivity extends AppCompatActivity
             intent.putExtra(Intent.EXTRA_TEXT, message);
             startActivity(intent);
         } else if (id == R.id.nav_send) {
+            startActivity(new Intent(MainActivity.this, MapsActivity.class));
 
         }
 
